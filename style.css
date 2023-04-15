@@ -184,8 +184,40 @@ h3{
 
 
     /* <!-- ------------------------------ CAMPUS ------------------------------- --> */
+    
+.campus{
+    
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.campus-col{
+    flex-basis: 32%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+.campus-col img{
+    width: 100%;
+}
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;transition: 0.5s;
+}
+
+.layer:hover{
+    background: rgba(226,0,0,0.7);
+}
 
 
 
 
 
+
+/* <!-- ------------------------------ CAMPUS ------------------------------- --> */
