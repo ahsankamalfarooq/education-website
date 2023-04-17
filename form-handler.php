@@ -6,10 +6,10 @@ $message = $_POST['message'];
 
 $email_from = 'info@teamkhr.com';
 $email_subject = 'New From Submission';
-$email_form = "User Name: $name./n".
-                "User Email: $visitor./n".
-                "Subject: $name./n".
-                "User Message: $name./n".
+$email_body = "User Name: $name.\n".
+                "User Email: $visitor_email.\n".
+                "Subject: $subject.\n".
+                "User Message: $message .\n".
 
 
 $to = 'ahsanraza8766@gmail.com';
