@@ -9,7 +9,7 @@ $email_subject = 'New From Submission';
 $email_body =  "User Name: $name.\n".
                "User Email: $visitor_email.\n".
                "Subject: $subject.\n".
-               "User Message: $message .\n".
+               "User Message: $message .\n";
 
 
 $to = 'ahsanraza8766@gmail.com';
